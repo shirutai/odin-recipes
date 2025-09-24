@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 236, 175);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.home-button{
+    position: absolute;
+    left: 5px;
+    top:12px;
+    color: white;
+    background-color: salmon;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+.home-button:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.top-bar{
+    text-align: center;
+    background-color: rgb(253, 194, 139);
+    color: brown;
+    border: salmon solid;
+    margin: 8px 0;
+}
+
+.recipe-name{
+    display: inline;
+}
+
+
+
+
+
+
+

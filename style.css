@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 236, 175);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(253, 194, 139);
+    padding: 3px 5px;
+    color: brown;
+    border: 2px salmon solid;
+}
+
+.buttons {
+    width: max-content;
+    margin: 8px auto;
+}
+.recipe-button {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: block;
+    color: white;
+    font-weight: 600;
+    background-color: salmon;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+
+.recipe-button:hover {
+    box-shadow: 3px black;
+    background-color: rgba(250, 128, 114, 0.644);
+}
+
+
+a{
+    text-align: center;
+    color: black;
+}
